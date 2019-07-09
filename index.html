@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shape Creator</title>
+</head>
+<body>
+    <button onclick="chooseShape(1)">Box</button>
+    <button onclick="chooseShape(2)">Circle</button>
+    <button onclick="chooseShape(3)">Ellipse</button>
+
+    <button onclick="hole()">hole</button>
+    <button onclick="clipA()">clip</button>
+    <button onclick="exportSVG()">export</button>
+    <div id="drawing" style="width: 100vw; height: 100vh"></div>
+    
+    <script src="libs/svg.js"></script>
+    <script src="libs/svg.draw.js"></script>
+    <script src="libs/svg.toPath2.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
